@@ -3,3 +3,80 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Rubik Dirt";
+  src: url("https://fonts.gstatic.com/s/rubikdirt/v2/DtVmJxC7WLEj1uIXEWAdilss6w.woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wXg.woff2");
+}
+
+
+h1 {
+  font-family: "Rubik Dirt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: bisque;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  color: bisque;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px bisque;
+  width: 460px;
+}
+
+html {
+  background-image: 
+    linear-gradient(to left,rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.75)),
+    url("./assets/canyon.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+  width: 500px;
+  height: auto;
+  margin: 300px 300px 0 50px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: bisque;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.lesson {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  color: bisque;
+}
+
+.first:first-letter {
+  font-size: 48px;
+  float: left;
+  line-height: 0.65;
+  margin: 5px 5px 5px 0;
+}
+
+
